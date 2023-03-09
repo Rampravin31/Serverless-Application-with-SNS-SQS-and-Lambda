@@ -1,0 +1,12 @@
+
+Create a serverless application with SNS, SQS, and Lambda.
+
+>> Create an SQS queue and SNS topic first.
+>> Subscribe the SQS queue to the SNS topic.
+>> Update the SQS access policy(update the ARNs) to provide permissions for SNS to access the SQS queue.
+>> Create a node.js Lambda function, and deploy the code to the function.
+>> Update the Lambda execution role with AWSLambdaSQSQueueExecutionRole (to update and delete messages).
+>> Now integrate the SQS and lambda with lambda triggers.
+>> Now publish a message on SNS, u can see the message and also check the cloud watch logs from Lambda.
+
+Video link : https://www.youtube.com/watch?v=ciTa2I7-tDE
